@@ -1,0 +1,48 @@
+.container {
+  padding: 20px 40px;
+  text-align: center;
+}
+
+.navbar {
+  width: 100%;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-lists {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  margin: 0;
+  padding: 0;
+  padding: 0 20px;
+}
+
+.nav-list {
+  padding: 0 5px;
+  margin: 0 20px;
+}
+
+.list {
+  font-weight: bold;
+}
+
+.list.active {
+  color: red;
+}
+
+.post-link {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 0;
+  margin: 10px 0;
+  cursor: pointer;
+  display: block;
+}
+
+.post-link:hover {
+  color: orange;
+}
