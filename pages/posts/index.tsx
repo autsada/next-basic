@@ -1,14 +1,12 @@
-import React from 'react'
-
-import Navbar from '../../components/navbar'
+import React, { ReactElement } from 'react'
+import Layout from '../../components/layout'
 
 function Posts() {
-  return (
-    <>
-      <Navbar />
-      <div className='container'>Posts</div>
-    </>
-  )
+  return <div>Posts</div>
+}
+
+Posts.getLayout = function getLayout(page: ReactElement) {
+  return <Layout>{page}</Layout>
 }
 
 export default Posts

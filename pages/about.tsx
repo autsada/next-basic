@@ -1,14 +1,12 @@
-import React from 'react'
-
-import Navbar from '../components/navbar'
+import React, { ReactElement } from 'react'
+import Layout from '../components/layout'
 
 function About() {
-  return (
-    <>
-      <Navbar />
-      <div className='container'>About</div>
-    </>
-  )
+  return <div>About</div>
+}
+
+About.getLayout = function getLayout(page: ReactElement) {
+  return <Layout>{page}</Layout>
 }
 
 export default About
