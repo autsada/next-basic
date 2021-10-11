@@ -1,26 +1,27 @@
 import React from 'react'
 
 import Link from './customLink'
+import Li from './li'
 
 function Navbar() {
   return (
-    <nav className='navbar'>
-      <ul className='nav-lists'>
-        <li className='nav-list'>
+    <nav className='w-full h-16 m-0 p-0'>
+      <ul className='h-full flex justify-center items-center border-b border-gray-500 m-0 px-5'>
+        <Li>
           <Link href='/'>
             <a className='list'>Home</a>
           </Link>
-        </li>
-        <li className='nav-list'>
+        </Li>
+        <Li>
           <Link href='/posts'>
             <a className='list'>Posts</a>
           </Link>
-        </li>
-        <li className='nav-list'>
+        </Li>
+        <Li>
           <Link href='/about'>
             <a className='list'>About</a>
           </Link>
-        </li>
+        </Li>
       </ul>
     </nav>
   )

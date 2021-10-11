@@ -6,7 +6,7 @@ function Layout({ children }: { children?: React.ReactNode }) {
   return (
     <>
       <Navbar />
-      <div className='container'>{children}</div>
+      <div className='py-5 px-10 text-center'>{children}</div>
     </>
   )
 }
