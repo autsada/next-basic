@@ -8,19 +8,13 @@ function Navbar() {
     <nav className='w-full h-16 m-0 p-0'>
       <ul className='h-full flex justify-center items-center border-b border-gray-500 m-0 px-5'>
         <Li>
-          <Link href='/'>
-            <a className='list'>Home</a>
-          </Link>
+          <Link href='/'>Home</Link>
         </Li>
         <Li>
-          <Link href='/posts'>
-            <a className='list'>Posts</a>
-          </Link>
+          <Link href='/posts'>Posts</Link>
         </Li>
         <Li>
-          <Link href='/about'>
-            <a className='list'>About</a>
-          </Link>
+          <Link href='/about'>About</Link>
         </Li>
       </ul>
     </nav>

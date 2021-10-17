@@ -1,11 +1,3 @@
-.list {
-  font-weight: bold;
-}
-
-.list.active {
-  color: red;
-}
-
 .post-link {
   font-weight: bold;
   font-size: 20px;
